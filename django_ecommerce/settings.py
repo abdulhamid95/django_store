@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+import os
+
+from django.conf.global_settings import LANGUAGE_CODE
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +28,10 @@ SECRET_KEY = 'django-insecure-jo-szg@)7m5&$7vw_ev%d_18&&es#45-n6d66*ok(=s&k5pp6_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+]
 
 
 # Application definition
@@ -37,8 +43,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'paypal.standard.ipn',
     'store',
-    'checkout'
+    'checkout',
+    'reports'
 ]
 
 MIDDLEWARE = [
@@ -49,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'django_ecommerce.urls'
@@ -56,13 +65,16 @@ ROOT_URLCONF = 'django_ecommerce.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            'templates',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'store.custom_context_processor.store_website'
             ],
         },
     },
@@ -104,7 +116,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ar-sa'
 
 TIME_ZONE = 'UTC'
 
@@ -118,7 +130,31 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = 'media/'
+
+CURRENCY = 'USD'
+
+STATICFILES_DIRS = [BASE_DIR / 'static']
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Looking to send emails in production? Check out our Email API/SMTP product!
+EMAIL_HOST = ''
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_PORT = ''
+
+SITE_URL = 'http://127.0.0.1:8000'
+
+STRIPE_PUBLISHABLE_KEY = ''
+STRIPE_SECRET_KEY = ''
+STRIPE_ENDPOINT_SECERT = ''
+
+PAYPAL_EMAIL = ''
+PAYPAL_TEST = True
