@@ -1,0 +1,1359 @@
+[
+{
+    "model": "store.category",
+    "pk": 1,
+    "fields": {
+        "name": "برمجة",
+        "featured": true,
+        "order": 1,
+        "created_at": "2025-11-18T07:02:55.741Z",
+        "updated_at": "2025-11-18T07:02:55.741Z"
+    }
+},
+{
+    "model": "store.category",
+    "pk": 2,
+    "fields": {
+        "name": "ريادة أعمال",
+        "featured": true,
+        "order": 1,
+        "created_at": "2025-11-18T07:03:09.924Z",
+        "updated_at": "2025-11-18T07:03:27.719Z"
+    }
+},
+{
+    "model": "store.category",
+    "pk": 3,
+    "fields": {
+        "name": "تصميم",
+        "featured": true,
+        "order": 1,
+        "created_at": "2025-11-18T07:03:20.984Z",
+        "updated_at": "2025-11-18T07:03:20.984Z"
+    }
+},
+{
+    "model": "store.author",
+    "pk": 1,
+    "fields": {
+        "name": "محمد لحلح",
+        "bio": "مهندس معلوماتية",
+        "created_at": "2025-11-18T06:59:41.179Z",
+        "updated_at": "2025-11-18T06:59:41.179Z"
+    }
+},
+{
+    "model": "store.author",
+    "pk": 2,
+    "fields": {
+        "name": "عبداللطيف إيمش",
+        "bio": "مهندس",
+        "created_at": "2025-11-18T07:01:36.444Z",
+        "updated_at": "2025-11-18T07:01:36.444Z"
+    }
+},
+{
+    "model": "store.author",
+    "pk": 3,
+    "fields": {
+        "name": "هشام دهرار",
+        "bio": "كاتب",
+        "created_at": "2025-11-18T07:02:35.061Z",
+        "updated_at": "2025-11-18T07:02:37.741Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+        "name": "ريادة الأعمال 1.0.0",
+        "short_description": "ريادة الأعمال هي عنصر أساسي لاستمرار دورة الحياة الاقتصادية، وخلق أسواق جديدة مفيدة للناس باستمرار، فهي تقدم حلولًا لمشاكل يحتاج الناس لحلٍ لها، كما تقدم بدائل جيدة بأفكار جديدة وتطرحها في السوق بطريقة إبداعية؛ وفي أحيان كثيرة هي تفتح أسواقًا جديدةً أساسًا، أو تستفيد من فرصة ما وتطرح فكرة جديدة، أو مطورة عبر إدخال إضافة لما كان موجودًا سابقًا، مما يسمح بالتواجد في السوق والريادة فيه.",
+        "description": "ريادة الأعمال هي عنصر أساسي لاستمرار دورة الحياة الاقتصادية، وخلق أسواق جديدة مفيدة للناس باستمرار، فهي تقدم حلولًا لمشاكل يحتاج الناس لحلٍ لها، كما تقدم بدائل جيدة بأفكار جديدة وتطرحها في السوق بطريقة إبداعية؛ وفي أحيان كثيرة هي تفتح أسواقًا جديدةً أساسًا، أو تستفيد من فرصة ما وتطرح فكرة جديدة، أو مطورة عبر إدخال إضافة لما كان موجودًا سابقًا، مما يسمح بالتواجد في السوق والريادة فيه.\r\n\r\nتُعَد ريادة الأعمال مجالًا كاملًا قد يتعلمه الطلاب في الجامعة إن كان تخصصهم ضمن مجال الأعمال والاقتصاد، لكنه قد يكون مهملًا أحيانًا لطلاب التخصصات الأخرى رغم أهميته الشديدة في تحقيق إضافة في السوق، أو إطلاق أو تطوير مشروع ما لأشخاص من تخصصات دراسية أخرى.\r\n\r\nلهذا أعددنا هذا الكتاب الذي سيفيد طلاب المجال لتسهيل حصولهم على مصادر تعليمية عالية المستوى، والحفاظ على أعلى المعايير الأكاديمية اللازمة؛ إلى جانب تقديم الشرح والمفاهيم اللازمة للوافدين من مجالات أخرى.\r\n\r\nهذا الكتاب \"ريادة الأعمال\"، هو النسخة العربية لكتاب Entrepreneurship، المؤلف من طرف مجموعة مؤلفين، وهو أحد منشورات OpenStax بإشراف جامعة Rice، وقد ترجمته وحررته أكاديمية حسوب.\r\n\r\nيتوافق هذا الكتاب مع نطاق وتسلسل دروس ريادة الأعمال التمهيدية، ويحوي شرحًا للنظريات الأساسية، والمفاهيم التطبيقية، بطريقة محفزة ومعاصرة وسهلة الفهم، من أجل ربط المفاهيم بالحياة اليومية، والمشاكل العصرية وتحديات الواقع التي يواجهها رواد أعمال باستمرار لكونهم من عصر جديد وبمعطيات جديدة ومتجددة؛ ويُعَد مناسبًا لعدة فئات، انطلاقًا من طلاب الجامعات، مرورًا على المدرسين لمساعدتهم على تدريس مادة ريادة الأعمال بطريقة أكاديمية محفزة للطلاب؛ وهو موجه أيضًا إلى مالكي الأعمال الصغيرة، والراغبين في توسيع أعمالهم، والمؤسِّسين، وأي ممتهنين لمهنة أخرى في مجال ريادة الأعمال، لمحاولة إيصالهم إلى الريادة والنجاح في مشاريعهم وأعمالهم وأفكارهم.",
+        "image": "Entrepreneurship_Thumbnail_Mi86ct4.png.a27e22e5823589f68078adaec5a1abe9.png",
+        "pdf_file": "Placeholder-PDF_FOx1MBF.pdf",
+        "price": 20.0,
+        "featured": true,
+        "created_at": "2025-12-09T19:50:20.198Z",
+        "updated_at": "2025-12-09T19:51:46.784Z",
+        "category": 2,
+        "author": 3
+    }
+},
+{
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+        "name": "أتمتة المهام المملة عبر بايثون 1.0.0",
+        "short_description": "تقع البرمجيات في صلب العديد من الأدوات التي نستعملها يوميًا، فتقريبًا كلنا يستعمل الشبكات الاجتماعية للتواصل، ولدينا هواتف ذكية في جيوبنا طوال الوقت، وأغلبية الأعمال المكتبية تتطلب تفاعلًا بشكلٍ أو بآخر مع الحواسيب، ونتيجةً لذلك زادت الحاجة إلى الأشخاص الذين يستطيعون البرمجة ازديادًا عظيمًا أخيرًا، وظهر عدد كبير من الكتب والمقالات والدورات التي تعد المبتدئين أن يصبحوا مهندسي برمجيات برواتب عالية.",
+        "description": "تقع البرمجيات في صلب العديد من الأدوات التي نستعملها يوميًا، فتقريبًا كلنا يستعمل الشبكات الاجتماعية للتواصل، ولدينا هواتف ذكية في جيوبنا طوال الوقت، وأغلبية الأعمال المكتبية تتطلب تفاعلًا بشكلٍ أو بآخر مع الحواسيب، ونتيجةً لذلك زادت الحاجة إلى الأشخاص الذين يستطيعون البرمجة ازديادًا عظيمًا أخيرًا، وظهر عدد كبير من الكتب والمقالات والدورات التي تعد المبتدئين أن يصبحوا مهندسي برمجيات برواتب عالية.\r\nهذا الكتاب ليس لتلكم الفئة، بل لجميع الفئات الأخرى! إن كنت تعمل عملًا مكتبيًا أو كنت مديرًا للأنظمة أو كنت أكاديميًا أو كنت تحب أن تمرح مع حاسوبك فهذا الكتاب لك، وستتعلم فيه أساسيات البرمجة لكي تتمكن من أتمتة المهام التي تأخذ وقتًا طويلًا من وقتك في العادة، وتكون إما بسيطة أو مخصصة جدًا فلا يوجد برنامج متاح لإنجازها، لكن بعد تعلمك لأساسيات البرمجة فيمكنك أن تجعل حاسوبك يقوم بها بدلًا منك.\r\n\r\nهذا الكتاب هو ترجمة لكتاب Automate the Boring Stuff with Python لصاحبه Al Sweigart، وترجمة عبد اللطيف ايمش وعلا عباس، ويعد دليلًا مهمًا للمبتدئين في البرمجة أو الراغبين في دخول المجال والاستفادة من البرمجة حتى لتبسيط الأعمال المكتبية وتسريعها.\r\n\r\nيمكنك قراءة فصول الكتاب على شكل مقالات من هذه الصفحة، صفحة التصنيف أتمتة المهام ببايثون، أو مباشرة مما يلي:",
+        "image": "Autonate-the-boring-stuff-with-Pyton-thumbnail_pdyNOEK.png.060b41fd43f9129766d7a379d6df46d7.png",
+        "pdf_file": "Placeholder-PDF_6sdCMdT.pdf",
+        "price": 15.0,
+        "featured": true,
+        "created_at": "2025-12-09T19:51:00.553Z",
+        "updated_at": "2025-12-09T19:51:43.424Z",
+        "category": 1,
+        "author": 2
+    }
+},
+{
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+        "name": "مدخل إلى الذكاء الاصطناعي وتعلم الآلة 1.0.0",
+        "short_description": "لا يخفى على أي متعلم لمجال علوم الحاسوب كثرة الاهتمام بمجال الذكاء الاصطناعي وتعلم الآلة، وكذلك الأمر بالنسبة لمستخدم التقنية العادي الذي بات يرى تطورًا كبيرًا في الآلات والتقنيات التي تحيط به بدءًا من المساعد الصوتي الآلي في جواله وحتى سيارته وبقية الأشياء الذكية المحيطة به. تتوالى الاختراعات والاكتشافات يومًا بعد يوم وتتنافس كبرى الشركات حول من يحرز أكبر تقدم ليخطف الأضواء من غيره. ونظرًا لهذا الاهتمام، ولضعف المحتوى العربي وسطحيته في هذا المجال أيضًا، قررنا توفير مصدر عربي دسم لشرح مجال الذكاء الاصطناعي وتعلم الآلة نظريًا وعمليًا لذا وضعنا فهرس المحتوى آنذاك وبدأنا العمل.",
+        "description": "لا يخفى على أي متعلم لمجال علوم الحاسوب كثرة الاهتمام بمجال الذكاء الاصطناعي وتعلم الآلة، وكذلك الأمر بالنسبة لمستخدم التقنية العادي الذي بات يرى تطورًا كبيرًا في الآلات والتقنيات التي تحيط به بدءًا من المساعد الصوتي الآلي في جواله وحتى سيارته وبقية الأشياء الذكية المحيطة به. تتوالى الاختراعات والاكتشافات يومًا بعد يوم وتتنافس كبرى الشركات حول من يحرز أكبر تقدم ليخطف الأضواء من غيره. ونظرًا لهذا الاهتمام، ولضعف المحتوى العربي وسطحيته في هذا المجال أيضًا، قررنا توفير مصدر عربي دسم لشرح مجال الذكاء الاصطناعي وتعلم الآلة نظريًا وعمليًا لذا وضعنا فهرس المحتوى آنذاك وبدأنا العمل.\r\n\r\nهذا الكتاب هو الجزء الأول النظري التأسيسي من أصل جزآن عن  الذكاء الاصطناعي وتعلم الآلة، ويبدأ بعرض أهمية الذكاء الاصطناعي وتعلم الآلة عبر الإشارة إلى المشاريع والإنجازات التي قدَّمها هذا المجال إلى البشرية حتى يومنا هذا وكيف أثرت على كل مجالات حياتنا اليومية. ينتقل بعدها إلى لمحة تاريخية عن المجال وكيفية ولادته ومراحل حياته حتى يومنا الحالي. ستجد بعدئذٍ المعلومات الدسمة في الفصل الثالث الذي يشرح المصطلحات المتعلقة بمجال تعلم الآلة ويشرح أساليب تعليم الإنسان للآلة والأسس التي بنيت عليها عمليات تعليم الآلة (منها شرح طرائق تعلم الآلة التقليدية ثم التجميع والتعلم المعزز وحتى الشبكات العصبية والتعلم العميق). يعرض الفصل الأخير تحديات عملية تعليم الآلة وما علاقة البيانات فيها، ثم أخيرًا عرض خارطة طريق لأهم المفاهيم التي يجب أن تتقنها في حال أردت التوسع في المجال وإتقانه.\r\n\r\nبعد الانتهاء من الجزء الأول في هذا الكتاب وتأسيس المفاهيم والمصطلحات التي يقوم عليها مجال الذكاء الاصطناعي وتعلم الآلة، يمكنك الانتقال إلى الجزء الثاني وهو كتاب عشرة مشاريع عملية عن الذكاء الاصطناعي لبدء تطبيق مشاريع عملية تطبيقية مبنية على بيانات واقعية وتنفيذ أفكار مشاريع من الحياة العملية باستخدام الذكاء الاصطناعي.\r\n\r\nساهم بالعمل على هذا الكتاب، محمد لحلح تأليفًا، وجميل بيلوني تحريرًا وإشرافًا، وأخرجه فنيًا فرج الشامي. أرجو أن نكون قد وُفقنَا في هذا العمل لسد ثغرةً كبيرةً في المحتوى العربي -كما خططنا لذلك- الذي يفتقر أشد الافتقار إلى محتوى جيد ورصين في مجال الذكاء الاصطناعي وتعلم الآلة.",
+        "image": "ML-Thumb-2.png.591a8f2267cfaa25047fb55d54a821ff_cheTXXp.png",
+        "pdf_file": "Placeholder-PDF_2HZtpKj.pdf",
+        "price": 24.0,
+        "featured": true,
+        "created_at": "2025-12-09T19:51:26.793Z",
+        "updated_at": "2025-12-09T20:35:38.709Z",
+        "category": 3,
+        "author": 1
+    }
+},
+{
+    "model": "store.order",
+    "pk": 1,
+    "fields": {
+        "transaction": null,
+        "created_at": "2025-11-21T07:20:45.379Z",
+        "updated_at": "2025-11-21T07:20:45.379Z"
+    }
+},
+{
+    "model": "store.order",
+    "pk": 2,
+    "fields": {
+        "transaction": null,
+        "created_at": "2025-11-21T09:40:18.695Z",
+        "updated_at": "2025-11-21T09:40:18.695Z"
+    }
+},
+{
+    "model": "store.order",
+    "pk": 3,
+    "fields": {
+        "transaction": null,
+        "created_at": "2025-11-21T09:40:59.603Z",
+        "updated_at": "2025-11-21T09:40:59.603Z"
+    }
+},
+{
+    "model": "store.order",
+    "pk": 4,
+    "fields": {
+        "transaction": null,
+        "created_at": "2025-11-21T09:49:30.655Z",
+        "updated_at": "2025-11-21T09:49:30.655Z"
+    }
+},
+{
+    "model": "store.order",
+    "pk": 5,
+    "fields": {
+        "transaction": null,
+        "created_at": "2025-11-21T09:50:13.602Z",
+        "updated_at": "2025-11-21T09:50:13.602Z"
+    }
+},
+{
+    "model": "store.order",
+    "pk": 6,
+    "fields": {
+        "transaction": null,
+        "created_at": "2025-11-21T09:54:21.503Z",
+        "updated_at": "2025-11-21T09:54:21.503Z"
+    }
+},
+{
+    "model": "store.order",
+    "pk": 7,
+    "fields": {
+        "transaction": 18,
+        "created_at": "2025-11-25T20:31:57.074Z",
+        "updated_at": "2025-11-25T20:31:57.074Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 1,
+    "fields": {
+        "order": 1,
+        "product": 1,
+        "price": 20.0,
+        "created_at": "2025-11-21T07:20:45.386Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 2,
+    "fields": {
+        "order": 1,
+        "product": 2,
+        "price": 15.0,
+        "created_at": "2025-11-21T07:20:45.393Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 3,
+    "fields": {
+        "order": 2,
+        "product": 1,
+        "price": 20.0,
+        "created_at": "2025-11-21T09:40:18.701Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 4,
+    "fields": {
+        "order": 2,
+        "product": 2,
+        "price": 15.0,
+        "created_at": "2025-11-21T09:40:18.707Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 5,
+    "fields": {
+        "order": 2,
+        "product": 3,
+        "price": 25.0,
+        "created_at": "2025-11-21T09:40:18.712Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 6,
+    "fields": {
+        "order": 3,
+        "product": 1,
+        "price": 20.0,
+        "created_at": "2025-11-21T09:40:59.608Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 7,
+    "fields": {
+        "order": 3,
+        "product": 2,
+        "price": 15.0,
+        "created_at": "2025-11-21T09:40:59.615Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 8,
+    "fields": {
+        "order": 3,
+        "product": 3,
+        "price": 25.0,
+        "created_at": "2025-11-21T09:40:59.621Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 9,
+    "fields": {
+        "order": 4,
+        "product": 2,
+        "price": 15.0,
+        "created_at": "2025-11-21T09:49:30.662Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 10,
+    "fields": {
+        "order": 4,
+        "product": 3,
+        "price": 25.0,
+        "created_at": "2025-11-21T09:49:30.668Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 11,
+    "fields": {
+        "order": 5,
+        "product": 2,
+        "price": 15.0,
+        "created_at": "2025-11-21T09:50:13.608Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 12,
+    "fields": {
+        "order": 5,
+        "product": 3,
+        "price": 25.0,
+        "created_at": "2025-11-21T09:50:13.613Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 13,
+    "fields": {
+        "order": 6,
+        "product": 1,
+        "price": 20.0,
+        "created_at": "2025-11-21T09:54:21.509Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 14,
+    "fields": {
+        "order": 6,
+        "product": 2,
+        "price": 15.0,
+        "created_at": "2025-11-21T09:54:21.515Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 15,
+    "fields": {
+        "order": 7,
+        "product": 1,
+        "price": 20.0,
+        "created_at": "2025-11-25T20:31:57.087Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 16,
+    "fields": {
+        "order": 7,
+        "product": 2,
+        "price": 15.0,
+        "created_at": "2025-11-25T20:31:57.093Z"
+    }
+},
+{
+    "model": "store.orderproduct",
+    "pk": 17,
+    "fields": {
+        "order": 7,
+        "product": 3,
+        "price": 25.0,
+        "created_at": "2025-11-25T20:31:57.098Z"
+    }
+},
+{
+    "model": "store.slider",
+    "pk": 1,
+    "fields": {
+        "title": "الشريحة الأولى",
+        "subtitle": "هذا هو عارض الشرائح وهذه هي الشريحة الأولى",
+        "image": "Autonate-the-boring-stuff-with-Pyton-thumbnail.png.060b41fd43f9129766d7a379d6df46d7_CBbAMi2.png",
+        "order": 1,
+        "created_at": "2025-11-20T07:25:28.578Z",
+        "updated_at": "2025-11-20T07:25:28.578Z"
+    }
+},
+{
+    "model": "store.slider",
+    "pk": 2,
+    "fields": {
+        "title": "الشريحة الثانية",
+        "subtitle": "هذا هو عارض الشرائح وهذه هي الشريحة الثانية",
+        "image": "ML-Thumb-2.png.591a8f2267cfaa25047fb55d54a821ff_50nSZD0.png",
+        "order": 1,
+        "created_at": "2025-11-20T07:25:43.155Z",
+        "updated_at": "2025-11-20T07:25:43.155Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 1,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 40.0,
+        "items": [
+            3,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-21T20:03:17.130Z",
+        "updated_at": "2025-11-21T20:03:17.130Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 2,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 40.0,
+        "items": [
+            3,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-21T20:07:08.718Z",
+        "updated_at": "2025-11-21T20:07:08.718Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 3,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 40.0,
+        "items": [
+            3,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-21T20:07:51.891Z",
+        "updated_at": "2025-11-21T20:07:51.891Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 4,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 40.0,
+        "items": [
+            3,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-21T20:09:05.075Z",
+        "updated_at": "2025-11-21T20:09:05.075Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 5,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 40.0,
+        "items": [
+            3,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-21T20:09:31.706Z",
+        "updated_at": "2025-11-21T20:09:31.706Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 6,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 40.0,
+        "items": [
+            3,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-21T20:14:26.277Z",
+        "updated_at": "2025-11-21T20:14:26.277Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 7,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 40.0,
+        "items": [
+            3,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-21T20:17:44.167Z",
+        "updated_at": "2025-11-21T20:17:44.167Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 8,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 40.0,
+        "items": [
+            3,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-21T20:18:17.090Z",
+        "updated_at": "2025-11-21T20:18:17.090Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 9,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 60.0,
+        "items": [
+            2,
+            3,
+            1
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-21T20:27:08.002Z",
+        "updated_at": "2025-11-21T20:27:08.002Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 10,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-25T20:02:01.879Z",
+        "updated_at": "2025-11-25T20:02:01.879Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 11,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 45.0,
+        "items": [
+            1,
+            3
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-25T20:03:23.385Z",
+        "updated_at": "2025-11-25T20:03:23.385Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 12,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 45.0,
+        "items": [
+            1,
+            3
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-25T20:05:06.171Z",
+        "updated_at": "2025-11-25T20:05:06.171Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 13,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "abdulhamid@test.test"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-25T20:06:16.699Z",
+        "updated_at": "2025-11-25T20:06:16.700Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 14,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 45.0,
+        "items": [
+            1,
+            3
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-25T20:09:03.216Z",
+        "updated_at": "2025-11-25T20:09:03.216Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 15,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 45.0,
+        "items": [
+            1,
+            3
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-25T20:09:46.499Z",
+        "updated_at": "2025-11-25T20:09:46.499Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 16,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-25T20:11:05.540Z",
+        "updated_at": "2025-11-25T20:11:05.540Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 17,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 60.0,
+        "items": [
+            1,
+            3,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-25T20:30:28.417Z",
+        "updated_at": "2025-11-25T20:30:28.417Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 18,
+    "fields": {
+        "session": "y9hcwmldyazukhxrflqz7z42pbi4ggx1",
+        "amount": 60.0,
+        "items": [
+            1,
+            2,
+            3
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2025-11-25T20:31:45.723Z",
+        "updated_at": "2025-11-25T20:31:45.723Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 19,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T07:24:43.424Z",
+        "updated_at": "2025-12-02T07:24:43.424Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 20,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T07:25:11.358Z",
+        "updated_at": "2025-12-02T07:25:11.358Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 21,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T07:44:13.732Z",
+        "updated_at": "2025-12-02T07:44:13.732Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 22,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T07:45:01.078Z",
+        "updated_at": "2025-12-02T07:45:01.078Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 23,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T07:45:59.144Z",
+        "updated_at": "2025-12-02T07:45:59.144Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 24,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T07:46:44.373Z",
+        "updated_at": "2025-12-02T07:46:44.373Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 25,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T07:47:31.124Z",
+        "updated_at": "2025-12-02T07:47:31.124Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 26,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T07:48:48.040Z",
+        "updated_at": "2025-12-02T07:48:48.040Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 27,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T07:51:36.198Z",
+        "updated_at": "2025-12-02T07:51:36.198Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 28,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T07:53:35.780Z",
+        "updated_at": "2025-12-02T07:53:35.780Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 29,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T08:47:32.495Z",
+        "updated_at": "2025-12-02T08:47:32.495Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 30,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T08:49:15.849Z",
+        "updated_at": "2025-12-02T08:49:15.849Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 31,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T08:49:50.978Z",
+        "updated_at": "2025-12-02T08:49:50.978Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 32,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T08:51:31.467Z",
+        "updated_at": "2025-12-02T08:51:31.467Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 33,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T08:52:09.603Z",
+        "updated_at": "2025-12-02T08:52:09.603Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 34,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T08:53:58.018Z",
+        "updated_at": "2025-12-02T08:53:58.018Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 35,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T08:54:03.214Z",
+        "updated_at": "2025-12-02T08:54:03.214Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 36,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T08:57:43.790Z",
+        "updated_at": "2025-12-02T08:57:43.790Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 37,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T08:59:45.405Z",
+        "updated_at": "2025-12-02T08:59:45.405Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 38,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T09:00:00.513Z",
+        "updated_at": "2025-12-02T09:00:00.513Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 39,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T09:01:23.625Z",
+        "updated_at": "2025-12-02T09:01:23.625Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 40,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T09:02:44.256Z",
+        "updated_at": "2025-12-02T09:02:44.256Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 41,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T09:05:04.842Z",
+        "updated_at": "2025-12-02T09:05:04.842Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 42,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T09:05:55.654Z",
+        "updated_at": "2025-12-02T09:05:55.654Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 43,
+    "fields": {
+        "session": "w9wg2jlp38afqq1okegs9tmkkot37f4f",
+        "amount": 35.0,
+        "items": [
+            1,
+            2
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-02T09:06:55.675Z",
+        "updated_at": "2025-12-02T09:06:55.675Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 44,
+    "fields": {
+        "session": "wqirerfiiqf1b6mm9617dki725ls4yb0",
+        "amount": 20.0,
+        "items": [
+            4
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2025-12-09T19:56:24.474Z",
+        "updated_at": "2025-12-09T19:56:24.474Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 45,
+    "fields": {
+        "session": "xdl766pttohrgrma57h0ad4wsz6ofha1",
+        "amount": 20.0,
+        "items": [
+            4
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 1,
+        "created_at": "2026-01-05T16:24:52.596Z",
+        "updated_at": "2026-01-05T16:24:52.596Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 46,
+    "fields": {
+        "session": "xdl766pttohrgrma57h0ad4wsz6ofha1",
+        "amount": 20.0,
+        "items": [
+            4
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2026-01-05T16:24:53.948Z",
+        "updated_at": "2026-01-05T16:24:53.948Z"
+    }
+},
+{
+    "model": "checkout.transaction",
+    "pk": 47,
+    "fields": {
+        "session": "xdl766pttohrgrma57h0ad4wsz6ofha1",
+        "amount": 20.0,
+        "items": [
+            4
+        ],
+        "customer": {
+            "first_name": "Abdulhamid",
+            "last_name": "Hamso",
+            "email": "ahmad@gmail.com"
+        },
+        "status": 0,
+        "payment_method": 2,
+        "created_at": "2026-01-05T16:24:54.759Z",
+        "updated_at": "2026-01-05T16:24:54.759Z"
+    }
+}
+]

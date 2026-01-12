@@ -14,6 +14,7 @@ from pathlib import Path
 import os
 
 from django.conf.global_settings import LANGUAGE_CODE
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,15 +24,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-jo-szg@)7m5&$7vw_ev%d_18&&es#45-n6d66*ok(=s&k5pp6_'
+SECRET_KEY = config('SECRET_KEY')
+
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
-ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-]
+
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -88,10 +88,15 @@ WSGI_APPLICATION = 'django_ecommerce.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'store-online',     # اسم قاعدة البيانات
+        'USER': 'postgres',      # اسم المستخدم
+        'PASSWORD': '12345', # كلمة المرور
+        'HOST': 'localhost',       # حالياً نتركها localhost
+        'PORT': '5432',            # المنفذ الافتراضي لبوستغرس
     }
 }
+
 
 
 # Password validation
@@ -142,19 +147,20 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# Looking to send emails in production? Check out our Email API/SMTP product!
-EMAIL_HOST = ''
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
-EMAIL_PORT = ''
-
 SITE_URL = 'http://127.0.0.1:8000'
 
-STRIPE_PUBLISHABLE_KEY = ''
-STRIPE_SECRET_KEY = ''
-STRIPE_ENDPOINT_SECERT = ''
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-PAYPAL_EMAIL = ''
-PAYPAL_TEST = True
+
+# Looking to send emails in production? Check out our Email API/SMTP product!
+EMAIL_HOST = config('EMAIL_HOST')
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+EMAIL_PORT = config('EMAIL_PORT')
+
+STRIPE_PUBLISHABLE_KEY = config('STRIPE_PUBLISHABLE_KEY')
+STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY')
+STRIPE_ENDPOINT_SECERT = config('STRIPE_ENDPOINT_SECERT')
+
+PAYPAL_EMAIL = config('PAYPAL_EMAIL')
+PAYPAL_TEST = config('PAYPAL_TEST', default=True, cast=bool)
