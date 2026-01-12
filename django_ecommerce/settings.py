@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'django_ecommerce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'store-online',     # اسم قاعدة البيانات
-        'USER': 'postgres',      # اسم المستخدم
-        'PASSWORD': '12345', # كلمة المرور
-        'HOST': 'localhost',       # حالياً نتركها localhost
-        'PORT': '5432',            # المنفذ الافتراضي لبوستغرس
+        'NAME': config('DB_NAME'),     # اسم قاعدة البيانات
+        'USER': config('DB_USERNAME'),      # اسم المستخدم
+        'PASSWORD': config('DB_PASSWD'), # كلمة المرور
+        'HOST': config('DB_HOST'),       # حالياً نتركها localhost
+        'PORT': config('DB_PORT'),            # المنفذ الافتراضي لبوستغرس
     }
 }
 
